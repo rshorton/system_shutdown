@@ -1,0 +1,8 @@
+[Unit]
+Description=Robot Shutdown service
+
+[Service]
+ExecStart=/home/ubuntu/jeep_ws/src/system_shutdown/system_support/start_shutdown_watcher.sh start
+
+[Install]
+WantedBy=multi-user.target
