@@ -5,5 +5,6 @@ while [ 1 ]; do
         echo "Shutdown requested"
         shutdown now
     fi
+    sleep 5
 done
 
